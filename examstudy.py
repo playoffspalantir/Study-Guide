@@ -34,7 +34,7 @@ def parse_question_and_answer(text):
     return question_only, correct
 
 def app():
-    API_KEY = "AIzaSyAw-JraeMPb9xPsujq7_1K5QNHYonoktFY"
+    API_KEY = ""
     genai.configure(api_key=API_KEY)
 
     st.title("📊 Statistics Study App")
